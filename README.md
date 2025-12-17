@@ -3,7 +3,7 @@ Task Management System - Express API with JSON Storage
 
 Express.js REST API for managing tasks with CRUD operations and JSON file storage.
 
-## 📋 Project Description
+##  Project Description
 
 This is a backend API for a task management system. The API allows managing objects (tasks): create, read, update, and delete records.
 
@@ -13,7 +13,7 @@ Each object contains:
 - `id` - unique identifier (number)
 - `name` - task name (required field)
 
-## 🚀 Installation and Setup
+##  Installation and Setup
 
 ### Step 1: Clone the repository
 ```bash
