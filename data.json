@@ -1,0 +1,16 @@
+{
+  "objects": [
+    {
+      "id": 1,
+      "name": "Buy Boat"
+    },
+    {
+      "id": 2,
+      "name": "Walk the dog"
+    },
+    {
+      "id": 3,
+      "name": "Read a book"
+    }
+  ]
+}
