@@ -52,12 +52,6 @@ Create a `data.json` file in the project root with the following content:
 
 ### Step 4: Run the server
 ```bash
-npm start
-```
-
-or
-
-```bash
 node server.js
 ```
 
