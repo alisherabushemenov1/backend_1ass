@@ -238,12 +238,8 @@ GET http://localhost:3000/objects
   }
 ]
 ```
+### Technologies
 ```
-🛠️ Technologies
-
-Node.js (v14+) - JavaScript runtime
-Express.js (v4.18.2) - Web framework for building APIs
-File System (fs) - Built-in Node.js module for file operations
 
 ✅ Implemented Features
 Demo Routes
