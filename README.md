@@ -272,44 +272,14 @@ express.json() - middleware for parsing JSON in request body
  Postman Testing Results
 All routes have been successfully tested:
 
-
-
-
-Operation
-URL
-Method
-Status
-Result
-
-
-
-
-Get all
-/objects
-GET
-200 OK
-✅ Working
-
-
-Create
-/objects
-POST
-201 Created
-✅ Working
-
-
-Update
-/objects/1
-PUT
-200 OK
-✅ Working
-
-
-Delete
-/objects/4
-DELETE
-200 OK
-✅ Working
+| Operation | URL | Method | Status | Result |
+|-----------|-----|--------|--------|--------|
+| Get all | `/objects` | GET | 200 OK | ✅ Working |
+| Create | `/objects` | POST | 201 Created | ✅ Working |
+| Update | `/objects/1` | PUT | 200 OK | ✅ Working |
+| Delete | `/objects/4` | DELETE | 200 OK | ✅ Working |
+| Error 404 | `/objects/999` | PUT | 404 Not Found | ✅ Working |
+| Error 400 | `/objects` | POST | 400 Bad Request | ✅ Working |
 
 
 
