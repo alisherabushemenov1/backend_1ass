@@ -221,7 +221,7 @@ GET http://localhost:3000/objects
 
 **Status:** `200 OK`
 
-**Response:** Returns the original 3 objects (without "Complete homework"):
+**Response:** Returns the original 3 objects (without "Buy bread"):
 ```json
 [
   {
