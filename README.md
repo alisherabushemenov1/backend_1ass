@@ -238,6 +238,13 @@ GET http://localhost:3000/objects
   }
 ]
 ```
+```
+🛠️ Technologies
+
+Node.js (v14+) - JavaScript runtime
+Express.js (v4.18.2) - Web framework for building APIs
+File System (fs) - Built-in Node.js module for file operations
+
 ✅ Implemented Features
 Demo Routes
 
@@ -264,10 +271,50 @@ Additional Features
 🔧 Middleware
 The project uses:
 
+
 express.json() - middleware for parsing JSON in request body
 
 🧪 Postman Testing Results
 All routes have been successfully tested:
-OperationURLMethodStatusResultGet all/objectsGET200 OK✅ WorkingCreate/objectsPOST201 Created✅ WorkingUpdate/objects/1PUT200 OK✅ WorkingDelete/objects/4DELETE200 OK✅ Working
+
+
+
+
+Operation
+URL
+Method
+Status
+Result
+
+
+
+
+Get all
+/objects
+GET
+200 OK
+✅ Working
+
+
+Create
+/objects
+POST
+201 Created
+✅ Working
+
+
+Update
+/objects/1
+PUT
+200 OK
+✅ Working
+
+
+Delete
+/objects/4
+DELETE
+200 OK
+✅ Working
+
 
 
