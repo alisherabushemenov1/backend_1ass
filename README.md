@@ -238,5 +238,36 @@ GET http://localhost:3000/objects
   }
 ]
 ```
+✅ Implemented Features
+Demo Routes
+
+✅ GET / - check server status
+✅ GET /hello - JSON greeting
+✅ GET /time - current server time
+✅ GET /status - server status
+
+CRUD Operations
+
+✅ GET /objects - retrieve all objects
+✅ POST /objects - create a new object
+✅ PUT /objects/:id - update an object
+✅ DELETE /objects/:id - delete an object
+
+Additional Features
+
+✅ Data validation (checking required "name" field)
+✅ Error handling (404, 400)
+✅ Automatic ID assignment (auto-increment)
+✅ Data persistence in JSON file
+✅ Middleware for JSON parsing
+
+🔧 Middleware
+The project uses:
+
+express.json() - middleware for parsing JSON in request body
+
+🧪 Postman Testing Results
+All routes have been successfully tested:
+OperationURLMethodStatusResultGet all/objectsGET200 OK✅ WorkingCreate/objectsPOST201 Created✅ WorkingUpdate/objects/1PUT200 OK✅ WorkingDelete/objects/4DELETE200 OK✅ Working
 
 
