@@ -256,20 +256,9 @@ CRUD Operations
 ✅ PUT /objects/:id - update an object
 ✅ DELETE /objects/:id - delete an object
 
-Additional Features
 
-✅ Data validation (checking required "name" field)
-✅ Error handling (404, 400)
-✅ Automatic ID assignment (auto-increment)
-✅ Data persistence in JSON file
-✅ Middleware for JSON parsing
-
-🔧 Middleware
-The project uses:
-
-express.json() - middleware for parsing JSON in request body
 ```
-## 🧪 Postman Testing Results
+## Postman Testing Results
 
 All routes have been successfully tested:
 
@@ -279,6 +268,9 @@ All routes have been successfully tested:
 | Create | `/objects` | POST | 201 Created | ✅ Working |
 | Update | `/objects/1` | PUT | 200 OK | ✅ Working |
 | Delete | `/objects/4` | DELETE | 200 OK | ✅ Working |
+
+## Testing screenshots
+<img width="1919" height="1077" alt="image" src="https://github.com/user-attachments/assets/3f92c513-6c0b-4a32-b6aa-c58410d4afeb" />
 
 
 
