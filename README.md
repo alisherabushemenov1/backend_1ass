@@ -147,7 +147,7 @@ Content-Type: application/json
 **Body:**
 ```json
 {
-  "name": "Complete homework"
+  "name": "Buy bread"
 }
 ```
 
@@ -157,7 +157,7 @@ Content-Type: application/json
 ```json
 {
   "id": 4,
-  "name": "Complete homework"
+  "name": "Buy bread"
 }
 ```
 
@@ -174,7 +174,7 @@ Content-Type: application/json
 **Body:**
 ```json
 {
-  "name": "Buy milk and bread"
+  "name": "Buy boat"
 }
 ```
 
@@ -184,11 +184,11 @@ Content-Type: application/json
 ```json
 {
   "id": 1,
-  "name": "Buy milk and bread"
+  "name": "Buy boat"
 }
 ```
 
-**Note:** The name was updated from "Buy milk" to "Buy milk and bread".
+**Note:** The name was updated from "Buy milk" to "Buy boat".
 
 ---
 
