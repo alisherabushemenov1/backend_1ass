@@ -226,7 +226,7 @@ GET http://localhost:3000/objects
 [
   {
     "id": 1,
-    "name": "Buy milk and bread"
+    "name": "Buy milk"
   },
   {
     "id": 2,
