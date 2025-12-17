@@ -62,7 +62,7 @@ You will see in the console:
 Server started on http://localhost:3000
 ```
 
-## 📚 List of API Routes
+## List of API Routes
 
 ### Demo Routes (Test Routes)
 
@@ -82,7 +82,7 @@ Server started on http://localhost:3000
 | PUT | `/objects/:id` | Update object | JSON in body |
 | DELETE | `/objects/:id` | Delete object | - |
 
-## 📮 Example Postman Requests
+## Example Postman Requests
 
 ### Initial state of data.json
 
@@ -267,10 +267,9 @@ Additional Features
 🔧 Middleware
 The project uses:
 
-
 express.json() - middleware for parsing JSON in request body
 
-🧪 Postman Testing Results
+ Postman Testing Results
 All routes have been successfully tested:
 
 
